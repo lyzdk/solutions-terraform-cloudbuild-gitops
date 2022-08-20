@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "starry-tracker-339806-tfstate"
     prefix = "env/dev"
   }
 }
